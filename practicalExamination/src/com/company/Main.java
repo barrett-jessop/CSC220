@@ -10,6 +10,7 @@ import static com.company.publicClassQ2.deleteMiddle;
 public class Main {
     public static void main(String[] args) {
 
+        //Part 1
         Stack<Integer> ages = new Stack<Integer>();
         ages.push(11);
         ages.push(10);
@@ -31,6 +32,7 @@ public class Main {
             System.out.print(z + " ");
         }
 
+        //Part 2
         Queue<String> names = new LinkedList<String>();
         names.add("Peaches");
         names.add("Billy");
@@ -48,7 +50,7 @@ public class Main {
         System.out.print("\nReversed Queue: " + names);
 
 
-
+        //Part 4
         iPublicClassQ4 Queue = new publicClassQ4();
         publicClassQ4.initializeQueue();
         publicClassQ4.reverseQueue();
